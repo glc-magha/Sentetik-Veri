@@ -61,4 +61,6 @@ Kod yorumlarıyla algoritma oluşturma
 Hataların düzeltilmesi
 Test yazma
 Farklı dillerde örnek çeviriler (örneğin: Python → JavaScript)
+
+
 """
