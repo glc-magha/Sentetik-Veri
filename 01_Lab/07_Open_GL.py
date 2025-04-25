@@ -1,4 +1,4 @@
-#Temel Üçgen Çizimi
+"""#Temel Üçgen Çizimi
 import glfw
 from OpenGL.GL import *
 from OpenGL.GL.shaders import compileProgram, compileShader
@@ -72,3 +72,4 @@ rotation = pyrr.Matrix44.from_y_rotation(time.time() % 6.28)
 pip install glfw PyOpenGL pyrr
 
 
+"""
