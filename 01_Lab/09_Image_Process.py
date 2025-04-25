@@ -1,4 +1,4 @@
-"""
+""""""
 """TokenCut, görüntü ve videolardaki nesneleri segmentlemek için kendiliğinden denetimli (self-supervised) transformer özelliklerini ve Normalized Cut algoritmasını kullanan bir yöntemdir. Bu yaklaşımda, görüntü yamaları (patch'ler) bir grafın düğümleri olarak ele alınır ve düğümler arasındaki kenarlar, transformer tarafından öğrenilen özelliklere dayalı benzerlik skorlarıyla ağırlıklandırılır. Daha sonra, bu graf üzerinde Normalized Cut algoritması uygulanarak, öne çıkan nesneler tespit edilir ve segmentlenir. ​
 
 Bu kod, bir görüntüyü yükleyip ön işler, önceden eğitilmiş bir Vision Transformer (ViT) modeli kullanarak özellikleri çıkarır, bu özelliklere dayalı bir benzerlik matrisi oluşturur ve ardından Normalized Cut algoritmasıyla spektral kümeleme yaparak nesne segmentasyonu gerçekleştirir. Bu, TokenCut yönteminin temel prensiplerini basit bir örnekle göstermektedir
@@ -144,4 +144,4 @@ cv2.waitKey(0)
 
 # Pencereleri kapat
 cv2.destroyAllWindows()
-#---------------------------------------------------------------------
+#---------------------------------------------------------------------"""
